@@ -1,0 +1,25 @@
+{
+  "name": "covidmx-frontend",
+  "version": "1.0.0",
+  "description": "CovidMx Frontend Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CovidMx/CovidMX-frontend.git"
+  },
+  "keywords": [
+    "covid-mx",
+    "js",
+    "charts",
+    "maps"
+  ],
+  "author": "CovidMx\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DCohort-04-team-z",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CovidMx/CovidMX-frontend/issues"
+  },
+  "homepage": "https://github.com/CovidMx/CovidMX-frontend#readme"
+}
