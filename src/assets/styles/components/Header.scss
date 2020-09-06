@@ -1,0 +1,30 @@
+@import '../Vars.scss';
+
+.Header {
+  height: 60px;
+  background: $ligth-color;
+  padding: 2em 5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__logo {
+    width: 175px;
+  }
+
+  &__nav {
+    ul {
+      list-style: none;
+      display: flex;
+
+      li {
+        margin-left: 1em;
+
+        a {
+          text-decoration: none;
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+}

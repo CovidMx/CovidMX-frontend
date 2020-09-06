@@ -1,4 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-ReactDOM.render('Hola Covid', document.getElementById('App'));
+import App from './routes/App';
+
+ReactDOM.render(<App />, document.getElementById('App'));
