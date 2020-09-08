@@ -1,0 +1,59 @@
+@import '../Vars.scss';
+
+.container {
+  display: grid;
+  grid-template-columns: minmax(auto, 1300px);
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.ChartsEstados {
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+  justify-content: center;
+  
+  &__Card {
+    height: 226px;
+    width: 410px;
+    background: $ligth-color;
+    border-radius: 5px;
+    box-shadow: $shadow-card;
+    position: relative;
+
+    &-face {
+      background: $gradient-card;
+      // height: 50px;
+      // width: 50px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 1.5em 2em;
+
+      &-city {
+        color: $primary-color;
+        margin: 0;
+        font-size: 1.5em;
+      }
+
+      &-cases {
+        color: $secondary-color;
+        h2 {
+          font-size: 2.75em;
+          margin: 0;
+        } 
+        h3 {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
