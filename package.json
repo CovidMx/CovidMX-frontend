@@ -23,8 +23,10 @@
   },
   "homepage": "https://github.com/CovidMx/CovidMX-frontend#readme",
   "dependencies": {
+    "leaflet": "^1.7.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-leaflet": "^2.7.0",
     "recharts": "^1.8.5"
   },
   "devDependencies": {
