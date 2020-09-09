@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Header from '../components/Header';
+import Hero from '../components/Hero';
 import ChartsEstadosCards from '../components/ChartsEstadosCards';
 import ChartBar from '../components/ChartBar';
 
@@ -17,6 +18,7 @@ const Home = () => {
   return (
     <>
       <Header />
+      <Hero />
       <ChartsEstadosCards />
       <ChartBar info={covid} />
     </>
