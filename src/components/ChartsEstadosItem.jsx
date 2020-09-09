@@ -7,7 +7,7 @@ const data = [
   { name: 'Jun', covid: 400, pv: 0, amt: 2400 },
   { name: 'Jul', covid: 200, pv: 500, amt: 2400 },
   { name: 'Ago', covid: 100, pv: 400, amt: 2400 },
-  { name: 'Sep', covid: 250, pv: 100, amt: 2400 },
+  { name: 'Sep', covid: 500, pv: 100, amt: 2400 },
 ];
 
 const ChartsEstadosItem = () => {
