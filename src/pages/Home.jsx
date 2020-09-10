@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Hero from '../components/Hero';
 import ChartsEstadosCards from '../components/ChartsEstadosCards';
 import ChartBar from '../components/ChartBar';
+import Footer from '../components/Footer';
 
 import '../assets/styles/App.scss';
 
@@ -21,6 +22,7 @@ const Home = () => {
       <Hero />
       <ChartsEstadosCards />
       <ChartBar info={covid} />
+      <Footer />
     </>
   );
 };

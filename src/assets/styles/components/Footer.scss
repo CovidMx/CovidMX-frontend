@@ -1,0 +1,16 @@
+@import '../Vars.scss';
+
+.Footer {
+    margin-top: 1em;
+    width: 100%;
+}
+.Footer__background {
+    background-color: $primary-color;
+    width: inherit;
+}
+.Footer__content {
+    width: 85%;
+    max-width: 1200px;
+    padding: 1em 0;
+    margin: 0 auto;
+}
