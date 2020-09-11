@@ -34,9 +34,7 @@ const Team = () => {
             <TeamCard name='Manuel' job='Data Scientist' twitter='jcp' link='twitter.com' />
           </div>
         </div>
-
       </div>
-
     </>
   );
 };

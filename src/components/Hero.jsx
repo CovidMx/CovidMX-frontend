@@ -13,7 +13,7 @@ const Hero = () => (
                     <p className="Hero__hashtag">#QuédateEnCasa</p>
                 </div>
                 <div className="Hero__img">
-                    <img src={ilustracion} alt="" className="Hero__img"/>
+                    <img src={ilustracion} alt="" className="Hero__img" />
                 </div>
             </div>
         </div>
