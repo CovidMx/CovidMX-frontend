@@ -1,0 +1,42 @@
+@import './Vars.scss';
+
+.container {
+  display: grid;
+  grid-template-columns: minmax(auto, 1200px);
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  color: $secondary-color;
+}
+
+.Team {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 1em;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .Team {
+    grid-template-columns: repeat(2, auto);
+    padding: 1em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Team {
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .container {
+    grid-template-columns: auto;
+  }
+  .Team {
+    grid-template-columns: auto;
+  }
+}
