@@ -1,0 +1,41 @@
+@import '../Vars.scss';
+
+.TeamCard {
+  background: $ligth-color;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  padding-top: 1.5em;
+
+  &__img {
+    width: 100px;
+    height: 100px;
+    background: $primary-color;
+    border-radius: 50%;
+
+    img {
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+
+  &__info {
+    color: $secondary-color;
+    text-align: center;
+
+    h2 {
+      color: $primary-color;
+    }
+    h4 {
+      color: $secondary-color;
+    }
+    a {
+      color: $secondary-color;
+      text-decoration: none;
+      margin-left: .5em;
+    }
+  }
+}
