@@ -1,3 +1,5 @@
+//Gráfico de barra para el dashboard principal
+
 import React from 'react';
 import { ResponsiveContainer, BarChart, XAxis, YAxis, Tooltip, Bar } from 'recharts';
 
@@ -15,13 +17,15 @@ import { ResponsiveContainer, BarChart, XAxis, YAxis, Tooltip, Bar } from 'recha
 
 const ChartBar = ({ info }) => {
   return (
-    <BarChart data={info} width={300} height={300}>
-      <XAxis dataKey='name' />
-      <YAxis />
-      <Tooltip />
-      <Bar fill='green' dataKey='male' />
-      <Bar fill='blue' dataKey='female' />
-    </BarChart>
+    <ResponsiveContainer>
+      <BarChart data={info} width={300} height={300}>
+        <XAxis dataKey='name' />
+        <YAxis />
+        <Tooltip />
+        <Bar fill='green' dataKey='male' />
+        <Bar fill='blue' dataKey='female' />
+      </BarChart>
+    </ResponsiveContainer>
   );
 };
 
