@@ -1,5 +1,6 @@
 import React, { PureComponent, useEffect, useState } from 'react'
 import SingleChartPie from './SingleChartPie'
+import '../assets/styles/components/Hero.scss'
 
 
 const ChartPie = () => {
@@ -14,14 +15,20 @@ const ChartPie = () => {
 
   return (
     <>
-      {
-        apiData.map(item => {
-         
-          // <SingleChartPie {...item} />
-          return <SingleChartPie key={item.entidad_id} {... item} />
-        })
-  
-      }
+    <div className="Hero__container">
+      <div className="Hero__content">
+
+        {
+          apiData.map(item => {
+          
+            // <SingleChartPie {...item} />
+            return <SingleChartPie key={item.entidad_id} {... item} />
+          })
+    
+        }
+      </div>
+
+    </div>
     
         </>
   );
