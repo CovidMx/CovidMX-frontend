@@ -1,23 +1,31 @@
 @import '../Vars.scss';
 
+
+.ChartPie__container {
+    width: 85%;
+    margin: 64px auto 0;
+}
+
+.ChartPie__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2em;
+}
+
 .ChartPieCard {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    
 }
-.ChartPie__container {
-    margin-top: 64px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2em;
-    width: 85%;
-    margin: 64px auto 0;
-    justify-content: center;
 
-}
 .Pie__title {
 
 }
+
+
 .Pie__recuperados {
 
 }
@@ -39,4 +47,15 @@
     @extend .Pie__info--recuperados::after;
     background-color: $secondary-color;
     
+}
+
+@media screen and (max-width: 1024px) {
+    .ChartPie__grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 768px) {
+    .ChartPie__grid {
+        grid-template-columns: 1fr;
+    }
 }

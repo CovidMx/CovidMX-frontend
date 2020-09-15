@@ -36,9 +36,9 @@ const ChartPie = () => {
 
   return (
     <>
-    <div className="Hero__container">
-      <div className="">
-        <div className="ChartPie__container">
+    <div className="ChartPie__container">
+      
+        <div className="ChartPie__grid">
 
           {
             apiData.map(item => {
@@ -49,7 +49,7 @@ const ChartPie = () => {
       
           }
         </div>
-      </div>
+      
 
     </div>
     

@@ -30,24 +30,21 @@ const SingleChartPie = (data) => {
 
   return (
     <>
-    <div >
         <div className="ChartPieCard">
             <h2>{data.entidad_federativa}</h2>
             <h3 className="Pie__title">Casos activos: {data.casos_activos}</h3>
-            {/* <p>{data.casos_por_mil} casos por cada mil habitantes</p> */}
             <div className="Pie__info--recuperados Pie__recuperados">
                 Recuperados: {data.recuperados}
             </div>
             <div className="Pie__info--muertes muertos">
                 Muertos: {data.muertes}
             </div>
-            <ResponsiveContainer height={350}>
+            <ResponsiveContainer height={300}>
                     <PieChart >
                     <Pie
                         data={dataChartPie}
-                        cx={150}
-                        cy={100}
-                        labelLine={true}
+                        
+                        labelLine={false}
                         label={renderCustomizedLabel}
                         outerRadius={80}
                         fill="#8884d8"
@@ -62,9 +59,6 @@ const SingleChartPie = (data) => {
 
             </ResponsiveContainer>
         </div>
-    </div>
-    
-    
     </>
     // <div>Prueba</div>
   );
