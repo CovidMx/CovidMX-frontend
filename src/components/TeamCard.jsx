@@ -13,13 +13,13 @@ const TeamCard = ({ photo, name, job, twitter, link }) => {
       <div className='TeamCard__info'>
         <h2>{name}</h2>
         <h4>{job}</h4>
-        <h5>
+        {/* <h5>
           Twitter:
           <a href={link}>
             @
             {twitter}
           </a>
-        </h5>
+        </h5> */}
 
       </div>
     </div>

@@ -1,15 +1,12 @@
 import React from 'react';
 
+import logo from '../assets/static/logo-cmx.png';
+
 import '../assets/styles/components/Footer.scss';
 
 const Footer = () => (
     <div className="Footer">
-        <div className="Footer__background">
-            <div className="Footer__content">
-                x
-            </div>
-        </div>
-
+        <img src={logo} alt='Logo CovidMX' />
     </div>
 );
 

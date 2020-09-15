@@ -4,9 +4,7 @@ const useInitialState = (API) => {
   const [info, setInfo] = useState([]);
 
   useEffect(() => {
-    fetch(API, {
-      mode: 'no-cors',
-    })
+    fetch(API)
       .then(response => response.json())
       .then(data => setInfo(data));
   }, []);

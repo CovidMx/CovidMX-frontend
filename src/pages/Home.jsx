@@ -2,8 +2,10 @@ import React from 'react';
 
 import Header from '../components/Header';
 import Hero from '../components/Hero';
-import ChartsEstadosCards from '../components/ChartsEstadosCards';
-import ChartsDashboardHome from '../components/ChartsDashboardHome';
+import Estados from '../components/Estados';
+import DashboardMexico from '../components/DashboardMexico';
+import DashboardGeneros from '../components/DashboardGeneros';
+import DashboardGenerosMuertes from '../components/DashboardGenerosMuertes';
 import Footer from '../components/Footer';
 
 import '../assets/styles/App.scss';
@@ -13,8 +15,10 @@ const Home = () => {
     <>
       <Header />
       <Hero />
-      <ChartsEstadosCards />
-      <ChartsDashboardHome />
+      <Estados />
+      <DashboardMexico />
+      <DashboardGeneros />
+      <DashboardGenerosMuertes />
       <Footer />
     </>
   );
