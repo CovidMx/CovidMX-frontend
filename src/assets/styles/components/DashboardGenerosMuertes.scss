@@ -1,0 +1,25 @@
+@import '../Vars.scss';
+
+.DashboardMuertes {
+  padding: 1em;
+  background: $secondary-color;
+  height: 750px;
+
+  &__title{
+    color: $ligth-color;
+    text-align: center;
+  }
+
+  &__container {
+    height: 500px;
+    display: grid;
+    grid-template-columns: minmax(auto, 1100px);
+    justify-content: center;
+    grid-gap: 2em;
+
+    &-title {
+      text-align: center;
+      color: $ligth-color;
+    }
+  }
+}

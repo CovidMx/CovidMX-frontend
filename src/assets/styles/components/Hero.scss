@@ -8,7 +8,7 @@
 .Hero__background {
     background-color: $primary-color;
     color: $ligth-color;
-    height: 100vh;
+    height: 60vh;
     width: inherit;
     display: flex;
     justify-content: center;
@@ -46,13 +46,13 @@
     h2 {
         font-style: normal;
         font-weight: bold;
-        font-size: 48px;
-        line-height: 59px;
+        font-size: 30px;
+        line-height: 40px;
         text-align: right;
     }
     .Hero__hashtag {
         color: $dark-color;
-        font-size: 2em;
+        font-size: 1.7em;
     }
 }
 
@@ -60,6 +60,6 @@
     justify-self: center;
 }
 .Hero__img {
-    width: 100%;
+    width: 75%;
     max-width: 420px;
 }

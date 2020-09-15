@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  justify-content: center;
+}
+
+.Dashboard {
+  height: 600px;
+  display: grid;
+  grid-template-columns: minmax(auto, 1100px);
+  justify-content: center;
+  margin-top: 3em;
+}

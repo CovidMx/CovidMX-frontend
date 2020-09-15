@@ -1,0 +1,226 @@
+[
+  {
+    "entidad_id": 1,
+    "clave_entidad": 1,
+    "entidad_federativa": "AGUASCALIENTES",
+    "abreviatura": "AS",
+    "poblacion": 944285
+  },
+  {
+    "entidad_id": 2,
+    "clave_entidad": 2,
+    "entidad_federativa": "BAJA CALIFORNIA",
+    "abreviatura": "BC",
+    "poblacion": 2487367
+  },
+  {
+    "entidad_id": 3,
+    "clave_entidad": 3,
+    "entidad_federativa": "BAJA CALIFORNIA SUR",
+    "abreviatura": "BS",
+    "poblacion": 424041
+  },
+  {
+    "entidad_id": 4,
+    "clave_entidad": 4,
+    "entidad_federativa": "CAMPECHE",
+    "abreviatura": "CC",
+    "poblacion": 690689
+  },
+  {
+    "entidad_id": 5,
+    "clave_entidad": 5,
+    "entidad_federativa": "COAHUILA DE ZARAGOZA",
+    "abreviatura": "CL",
+    "poblacion": 2298070
+  },
+  {
+    "entidad_id": 6,
+    "clave_entidad": 6,
+    "entidad_federativa": "COLIMA",
+    "abreviatura": "CM",
+    "poblacion": 542627
+  },
+  {
+    "entidad_id": 7,
+    "clave_entidad": 7,
+    "entidad_federativa": "CHIAPAS",
+    "abreviatura": "CS",
+    "poblacion": 3920892
+  },
+  {
+    "entidad_id": 8,
+    "clave_entidad": 8,
+    "entidad_federativa": "CHIHUAHUA",
+    "abreviatura": "CH",
+    "poblacion": 3052907
+  },
+  {
+    "entidad_id": 9,
+    "clave_entidad": 9,
+    "entidad_federativa": "CIUDAD DE MÉXICO",
+    "abreviatura": "DF",
+    "poblacion": 8605239
+  },
+  {
+    "entidad_id": 10,
+    "clave_entidad": 10,
+    "entidad_federativa": "DURANGO",
+    "abreviatura": "DG",
+    "poblacion": 1448661
+  },
+  {
+    "entidad_id": 11,
+    "clave_entidad": 11,
+    "entidad_federativa": "GUANAJUATO",
+    "abreviatura": "GT",
+    "poblacion": 4663032
+  },
+  {
+    "entidad_id": 12,
+    "clave_entidad": 12,
+    "entidad_federativa": "GUERRERO",
+    "abreviatura": "GR",
+    "poblacion": 3079649
+  },
+  {
+    "entidad_id": 13,
+    "clave_entidad": 13,
+    "entidad_federativa": "HIDALGO",
+    "abreviatura": "HG",
+    "poblacion": 2235591
+  },
+  {
+    "entidad_id": 14,
+    "clave_entidad": 14,
+    "entidad_federativa": "JALISCO",
+    "abreviatura": "JC",
+    "poblacion": 6322002
+  },
+  {
+    "entidad_id": 15,
+    "clave_entidad": 15,
+    "entidad_federativa": "MÉXICO",
+    "abreviatura": "MC",
+    "poblacion": 13096686
+  },
+  {
+    "entidad_id": 16,
+    "clave_entidad": 16,
+    "entidad_federativa": "MICHOACÁN DE OCAMPO",
+    "abreviatura": "MN",
+    "poblacion": 3985667
+  },
+  {
+    "entidad_id": 17,
+    "clave_entidad": 17,
+    "entidad_federativa": "MORELOS",
+    "abreviatura": "MS",
+    "poblacion": 1555296
+  },
+  {
+    "entidad_id": 18,
+    "clave_entidad": 18,
+    "entidad_federativa": "NAYARIT",
+    "abreviatura": "NT",
+    "poblacion": 920185
+  },
+  {
+    "entidad_id": 19,
+    "clave_entidad": 19,
+    "entidad_federativa": "NUEVO LEÓN",
+    "abreviatura": "NL",
+    "poblacion": 3834141
+  },
+  {
+    "entidad_id": 20,
+    "clave_entidad": 20,
+    "entidad_federativa": "OAXACA",
+    "abreviatura": "OC",
+    "poblacion": 3438765
+  },
+  {
+    "entidad_id": 21,
+    "clave_entidad": 21,
+    "entidad_federativa": "PUEBLA",
+    "abreviatura": "PL",
+    "poblacion": 5076686
+  },
+  {
+    "entidad_id": 22,
+    "clave_entidad": 22,
+    "entidad_federativa": "QUERÉTARO",
+    "abreviatura": "QT",
+    "poblacion": 1404306
+  },
+  {
+    "entidad_id": 23,
+    "clave_entidad": 23,
+    "entidad_federativa": "QUINTANA ROO",
+    "abreviatura": "QR",
+    "poblacion": 874963
+  },
+  {
+    "entidad_id": 24,
+    "clave_entidad": 24,
+    "entidad_federativa": "SAN LUIS POTOSÍ",
+    "abreviatura": "SP",
+    "poblacion": 2299360
+  },
+  {
+    "entidad_id": 25,
+    "clave_entidad": 25,
+    "entidad_federativa": "SINALOA",
+    "abreviatura": "SL",
+    "poblacion": 2536844
+  },
+  {
+    "entidad_id": 26,
+    "clave_entidad": 26,
+    "entidad_federativa": "SONORA",
+    "abreviatura": "SR",
+    "poblacion": 2216969
+  },
+  {
+    "entidad_id": 27,
+    "clave_entidad": 27,
+    "entidad_federativa": "TABASCO",
+    "abreviatura": "TC",
+    "poblacion": 1891829
+  },
+  {
+    "entidad_id": 28,
+    "clave_entidad": 28,
+    "entidad_federativa": "TAMAULIPAS",
+    "abreviatura": "TS",
+    "poblacion": 2753222
+  },
+  {
+    "entidad_id": 29,
+    "clave_entidad": 29,
+    "entidad_federativa": "TLAXCALA",
+    "abreviatura": "TL",
+    "poblacion": 962646
+  },
+  {
+    "entidad_id": 30,
+    "clave_entidad": 30,
+    "entidad_federativa": "VERACRUZ DE IGNACIO DE LA LLAVE",
+    "abreviatura": "VZ",
+    "poblacion": 6908975
+  },
+  {
+    "entidad_id": 31,
+    "clave_entidad": 31,
+    "entidad_federativa": "YUCATÁN",
+    "abreviatura": "YN",
+    "poblacion": 1658210
+  },
+  {
+    "entidad_id": 32,
+    "clave_entidad": 32,
+    "entidad_federativa": "ZACATECAS",
+    "abreviatura": "ZS",
+    "poblacion": 1353610
+  }
+]

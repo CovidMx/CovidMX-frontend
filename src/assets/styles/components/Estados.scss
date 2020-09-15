@@ -1,0 +1,16 @@
+@import '../Vars.scss';
+
+.title {
+  text-align: center;
+}
+
+.Estados {
+  display: flex;
+  padding-bottom: .7em;
+  overflow: overlay;
+  white-space: nowrap;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

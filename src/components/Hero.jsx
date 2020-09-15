@@ -9,7 +9,7 @@ const Hero = () => (
             <div className="Hero__content">
                 <div className="Hero__title">
                     {/* <h1>CovidMX</h1> */}
-                    <h2>Ayuda a detener el esparcimiento del COVID_19 en México.</h2>
+                    <h2>Conoce el estado actual del Covid 19 en México.</h2>
                     <p className="Hero__hashtag">#QuédateEnCasa</p>
                 </div>
                 <div className="Hero__img">

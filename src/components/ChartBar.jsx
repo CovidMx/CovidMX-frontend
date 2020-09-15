@@ -1,29 +1,20 @@
 //Gráfico de barra para el dashboard principal
 
 import React from 'react';
-import { ResponsiveContainer, BarChart, XAxis, YAxis, Tooltip, Bar } from 'recharts';
+import { ResponsiveContainer, BarChart, XAxis, YAxis, CartesianGrid, Tooltip, Bar, Legend } from 'recharts';
 
-// const ChartBar = (props) => {
-//   return (
-//     <BarChart width={300} height={250} data={props.data}>
-//       <XAxis dataKey='name' />
-//       <YAxis />
-//       <Tooltip />
-//       <Bar fill='green' dataKey='male' />
-//       <Bar fill='blue' dataKey='female' />
-//     </BarChart>
-//   );
-// };
-
-const ChartBar = ({ info }) => {
+const ChartBar = ({ data }) => {
   return (
     <ResponsiveContainer>
-      <BarChart data={info} width={300} height={300}>
-        <XAxis dataKey='name' />
+      <BarChart data={data}>
+        <CartesianGrid strokeDasharray='3 3' opacity='.5' />
+        <XAxis dataKey='entidad_federativa' />
+        <Bar fill='#49C96D' dataKey='casos_activos' stackId='a' />
+        <Bar fill='#ED7600' dataKey='muertes' stackId='a' />
+        <Bar fill='#3529A3' dataKey='recuperados' stackId='a' />
         <YAxis />
         <Tooltip />
-        <Bar fill='green' dataKey='male' />
-        <Bar fill='blue' dataKey='female' />
+        <Legend />
       </BarChart>
     </ResponsiveContainer>
   );
