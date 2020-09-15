@@ -1,3 +1,30 @@
-.ChartPieContainer {
-    border: 1px solid red;
+@import '../Vars.scss';
+
+.ChartPieCard {
+    // border: 1px solid red;
+}
+.Pie__title {
+
+}
+.Pie__recuperados {
+
+}
+.Pie__info--recuperados {
+    position: relative;
+}
+.Pie__info--recuperados::after {
+    content: ' ';
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-color: $primary-color;
+    left: -25px;
+}
+.Pie__info--muertes {
+    @extend .Pie__info--recuperados;
+}
+.Pie__info--muertes::after {
+    @extend .Pie__info--recuperados::after;
+    background-color: $secondary-color;
+    
 }

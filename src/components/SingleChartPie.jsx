@@ -31,13 +31,14 @@ const SingleChartPie = (data) => {
   return (
     <>
     <div style={{ width: '100%', height: 350 }}>
-        <div className="ChartPieContainer">
-                <h2>Casos activos: {data.casos_activos}</h2>
+        <div className="ChartPieCard">
+                <h2>Estado</h2>
+                <h3 className="Pie__title">Casos activos: {data.casos_activos}</h3>
                 {/* <p>{data.casos_por_mil} casos por cada mil habitantes</p> */}
-                <div className="recuperados">
+                <div className="Pie__info--recuperados Pie__recuperados">
                     Recuperados: {data.recuperados}
                 </div>
-                <div className="muertos">
+                <div className="Pie__info--muertes muertos">
                     Muertos: {data.muertes}
                 </div>
             </div>
