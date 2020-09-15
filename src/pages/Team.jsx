@@ -15,6 +15,7 @@ import ol from '../assets/static/ol.jpg';
 import d from '../assets/static/d.png';
 import db from '../assets/static/db.jpg';
 import jop from '../assets/static/j.jpg';
+import lm from '../assets/static/lm.png';
 
 const Team = () => {
   return (
@@ -42,7 +43,7 @@ const Team = () => {
           </div>
           <div className='Team__data'>
             <h3 className='title'>Data Science</h3>
-            <TeamCard name='Luis Martínez' job='Data Scientist' />
+            <TeamCard photo={lm} name='Luis Martínez' job='Data Scientist' />
             <TeamCard photo={od} name='David Bocarejo' job='Data Base' twitter='jcp' link='twitter.com' />
           </div>
         </div>
