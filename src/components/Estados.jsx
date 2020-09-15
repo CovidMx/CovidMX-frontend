@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ChartsEstadosCards from './ChartsEstadosCards';
+import { Link } from 'react-router-dom'
 
 import '../assets/styles/components/Estados.scss';
 import states from '../states.json';
@@ -57,6 +58,15 @@ const Estados = () => {
         {info.map((item) =>
           <ChartsEstadosCards key={item.entidad_id} casosActivos={item.casos_activos} entidad={item.entidad_federativa} />
         )}
+      </div>
+      <div className="Estados__link">
+        <button className="Button__link">
+          <Link to='/estados'>
+            Ver más
+          </Link>
+
+        </button>
+
       </div>
     </>
     // <ChartsEstadosCards casosActivos={data[0].casos_activos} />

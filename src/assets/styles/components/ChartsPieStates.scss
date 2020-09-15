@@ -1,7 +1,19 @@
 @import '../Vars.scss';
 
 .ChartPieCard {
-    // border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.ChartPie__container {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    width: 85%;
+    margin: 64px auto 0;
+    justify-content: center;
+
 }
 .Pie__title {
 

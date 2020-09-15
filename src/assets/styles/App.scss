@@ -17,3 +17,17 @@ li {
 a {
   text-decoration: none;
 }
+
+.Button__link {
+  background-color: $primary-color;
+  font-family: inherit;
+  color: $ligth-color;
+  padding: 1em;
+  border: 0;
+  border-radius: .5em;
+  font-size: 1.1em;
+
+  a {
+    color: $ligth-color;
+  }
+}
